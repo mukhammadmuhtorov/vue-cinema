@@ -1,0 +1,32 @@
+
+
+
+@media screen and ( max-width: 1440px) {} 
+@media screen and ( max-width: 1336px) {} 
+@media screen and ( max-width: 1024px) {
+    .films__cards {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+} 
+.collections__cards {
+    justify-content: unset;
+    column-gap: 25px;
+    overflow-x: auto;
+}
+.collections__card {
+    flex-shrink: 0;
+}
+.collections__cards::-webkit-scrollbar {
+    width: 0%;
+}
+}
+@media screen and ( max-width: 992px) {} 
+@media screen and ( max-width: 768px) {
+    .header__banner {
+        object-position: 76%;
+    }
+} 
+@media screen and ( max-width: 736px) {} 
+@media screen and ( max-width: 675px) {} 
+@media screen and ( max-width: 578px) {} 
